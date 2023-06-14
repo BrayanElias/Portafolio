@@ -32,11 +32,14 @@ body{
 }
 .menu{
     display:flex ;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     margin: 0 auto;
+}
+.menu__header{
+    padding-left: 55px;
 }
 .menu__header img{
     width: 80px;
@@ -44,8 +47,8 @@ body{
 }
 .menu__list{
     display: flex;
-    gap: 10px;
     font-size: 20px;
+    margin-left: 100px;
 }
 .menu__list a{
     padding: 12px 20px;
