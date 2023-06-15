@@ -362,3 +362,130 @@ footer{
     border-radius: 10px;
     font-size: 20px;
 }
+
+@media (max-width: 768px) {
+    /* body{
+        background-color: red;
+    } */
+    .menu{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    nav{
+        display: none;
+    }
+    .title{
+        width: 100%;
+        gap: 15px;
+        text-align: center;
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-me{
+        justify-content: start;
+        padding: 80px;
+        width: 100%;
+        gap: 40px;
+     }
+     .section__formation{
+        padding-top: 80px;
+        text-align: center;
+        width: 80%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 40px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 425px) {
+    body{
+        background-color: red;
+    }
+    .menu{
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .menu__header{
+        padding-left: 0px;
+    }
+    .title{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        padding-left: 10px;
+        padding-right: 10px ;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .title h1{
+    font-size: 50px;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 0px;
+        width: 100vw;
+        gap: 50px;
+        /* margin-left: 60px; */
+     }
+     .about-me__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid #4eb7dd;
+        border-radius: 12px;
+        text-align: center;
+        margin-left: 50px;
+     }
+     .about-me__left img{
+        width: 300px;
+        height: 450px;
+        border-radius: 25px; 
+        position: relative;
+        right: 25px;
+        bottom: 30px;
+     }
+     .about-me__right h2{
+        width: 100vw;
+        text-align: center;
+    }
+     .about-me__right p{
+        width: 100vw;
+        font-size: 23px;
+        padding: 20px;
+    }
+    .about-me__buttons{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 35px;
+    }
+    .lista_portafolio h2{
+        width: 100vw;
+        text-align: center;
+        font-size: 30px;
+        padding-left: 70px;
+     }     
+     .menu__list-portafolio{
+         width: 100vw;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 30px;
+         padding-top: 30px;
+         font-size: 22px;
+         padding-bottom: 50px;
+         margin: 0 40px;
+     }
+}
+
+
